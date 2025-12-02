@@ -1,16 +1,15 @@
-from utils.helpers import read_input
+from day02.part1 import solve_part1
+from day02.part2 import solve_part2
 
-def solve_part1(data):
-    """Beispiel: Summe der Längen aller Zeilen"""
-    return sum(len(line) for line in data)
 
-def solve_part2(data):
-    """Beispiel: Maximale Zeilenlänge"""
-    if not data:
-        return 0
-    return max(len(line) for line in data)
+def main():
+    print("=== Day 02 ===")
+    print("Part 1:")
+    solve_part1()
+
+    print("Part 2:")
+    solve_part2()
+
 
 if __name__ == "__main__":
-    data = read_input("day02/input.txt")
-    print("Part 1:", solve_part1(data))
-    print("Part 2:", solve_part2(data))
+    main()
