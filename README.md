@@ -28,17 +28,33 @@ Dieses Repository enthält meine Lösungen für die Advent of Code 2025 Programm
 
 ## Nutzung
 
-- Eigene Lösung ausführen (z.B. für Tag 1):
+- Lösung für einen Tag ausführen (empfohlen, damit Importe funktionieren):
+
+  ```bash
+  python -m day01.solution
+  ```
+
+  Ersetze `day01` durch den gewünschten Tag (z.B. `day05`).
+
+- Alternativ (wenn Importe kein Problem sind):
+
   ```bash
   python3 day01/solution.py
   ```
+
 - Tests für einen Tag ausführen:
+
   ```bash
   pytest day01/test_solution.py
   ```
+
 - Alle Tests im Projekt ausführen:
   ```bash
   pytest
+  ```
+  pytest
+  ```
+
   ```
 
 ## Eigene Lösungen
