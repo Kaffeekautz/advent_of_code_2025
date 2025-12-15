@@ -1,7 +1,8 @@
 
 
 
-from utils.helpers import parse_ranges
+
+from utils.helpers import parse_ranges, read_input
 
 # =====================
 # Part 1: Simple Invalid IDs
@@ -61,9 +62,6 @@ def sum_invalid_ids_from_ranges_part2(lines: list[str]) -> int:
 # =====================
 # Hilfsfunktionen & CLI
 # =====================
-def read_input(path):
-    with open(path) as f:
-        return f.readlines()
 
 def main():
     import sys

@@ -1,14 +1,7 @@
 
-from pathlib import Path
-
-
 def read_input(path):
-    """
-    Liest die Eingabedatei ein und gibt eine Liste mit den Zeilen zurück.
-    Erwartet eine Pfadangabe (Path oder str).
-    """
-    path = Path(path)
-    return [line.strip() for line in path.read_text().splitlines()]
+
+from utils.helpers import read_input
 
 
 # ---------------------------------------------------------------------------
